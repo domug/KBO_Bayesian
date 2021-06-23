@@ -42,11 +42,7 @@
 
 
 
-<img src="./Image/data.png" width="500", height="300">
-
-
-
-![Image](./Image/data.png){: width="500" height="300"}
+![Image](./Image/data.png)
 
 
 
@@ -61,20 +57,11 @@
 - 프로야구 10개 팀 각각의 공격력/수비력 모수 추정
 
 
-$$
-Score \sim Poisson(\theta) \\
-\; \\
-\theta = (\beta_1 + att_1 + def_1) \; \gamma \\
-\; \\
-\beta_1  \sim Flat \\
-att_1 \sim N(0, \sigma_{att}) \\
-def_1 \sim N(0, \sigma_{def}) \\
-\; \\
-\sigma_{att} \sim HalfStudentT(3,2) \\
-\sigma_{def} \sim HalfStudentT(3,2) \\
-\; \\
-\gamma = scaling\;factor
-$$
+
+![Image](./Image/model.png)
+
+
+
 
 
 ![Image](./Image/modelling1_result.png)
